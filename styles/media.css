@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1200px) {
+     .header-top ul li a{
+         margin:0 10px;
+     }
+     .navbar-brand  {
+        margin-right: -55px;
+     }
+}
+
+@media only screen and (max-width: 1080px) {
+    .header-top ul li a{
+        margin: 0 7px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-top, .navbar {
+        padding:0;
+    }
+    .header-top a {
+        color: #321c92 !important; 
+    }
+    .navbar ul li {
+        margin-bottom: 7px;
+    }
+    .header-search {
+        background: #f8f9fa;
+        color: #321c92;
+        padding:6px;
+        border-top: 3px solid #ccc
+    }
+    .light {
+        background: #f8f9fa;
+    }
+    .header-text {
+        width:100%; 
+        padding: 150px 0;
+     }
+    .header-text h1 {
+        width: 100%;
+    }
+    .services .services-text {
+        margin-bottom: 15px;
+    }
+    .header-text .container {
+        max-width:100%;
+    }
+    .about .about-img img{
+        margin-top: 25px;
+     }
+     .portfolio-masonry .masonry-item::before {
+       top: 25px;
+     }
+     .portfolio-masonry .masonry-item:nth-child(2)::before, 
+     .portfolio-masonry .masonry-item:nth-child(3)::before  {
+          top: 10px;
+    }   
+    .text-hover a{
+        font-size: 14px;
+    }
+    .team-item {
+        margin-bottom: 10px;
+    }
+    .client div {
+        text-align: center;
+    }
+}
+@media only screen  and (max-width: 768px) {
+    .portfolio-masonry .masonry-item::before {
+        top: 20px;
+      }
+    .text-hover p {
+        margin:0;
+    }
+    .counter div {
+        margin-bottom: 20px;    
+    }
+    .price-item {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    footer div {
+        margin-bottom: 15px;
+    }
+}
